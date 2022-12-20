@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LQ6ecQ8FD62PnhML4aW3SP7/DnhzwGXTzGy2MWRZfBE/QeeRvqXsQUsfnCU1gQlN/6GZXrj1S1JB65gvy58Bmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\310-10\\Desktop\\myProgect\\практика 02.01\\scriptForGenerateInfo\\scriptForGenerateInfo\\scriptForGenerateInfo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\310-10\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

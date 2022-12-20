@@ -1,0 +1,20 @@
+﻿hotelProject
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\310-10\Desktop\myProgect\практика 02.01\hotelProject\hotelProject\obj\Debug\net6.0-windows\
+hotelProject
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\310-10\Desktop\myProgect\практика 02.01\hotelProject\hotelProject\App.xaml
+6-1874813263
+
+151031578225
+224-1556966935
+Views\AddBookingWindow.xaml;Views\AddClientWindow.xaml;Views\BookingPage.xaml;Views\ClientHistoryWindow.xaml;Views\ClientsPage.xaml;Views\MainWindow.xaml;
+
+True
+

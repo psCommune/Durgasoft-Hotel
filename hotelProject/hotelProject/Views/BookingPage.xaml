@@ -1,0 +1,67 @@
+﻿<Page x:Class="hotelProject.Views.BookingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:hotelProject.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Durgasoft Hotel | Брони">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Height="40" VerticalAlignment="Bottom" Content="Добавить" Click="goToAddBookingWindow"/>
+        <DockPanel Grid.Column="1">
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                <Label Content="Начальная дата"/>
+                <DatePicker SelectedDateChanged="filtersByDate" x:Name="StartDatePicker"/>
+                <Label Content="Конечная дата"/>
+                <DatePicker SelectedDateChanged="filtersByDate" x:Name="EndDatePicker"/>
+                <Label Content="Номер"/>
+                <ComboBox Width="100" ItemsSource="{Binding Rooms}" IsEnabled="False" x:Name="RoomsComboBox" SelectionChanged="filtersByRoom">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock>
+                            <Run Text="{Binding RoomNumber}"/>
+                            <Run Text="{Binding RoomTypeNavigation.RoomType1}"/>
+                            </TextBlock>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <CheckBox Content="Все комнаты" x:Name="AllRoomsCheckBox" IsChecked="True" Checked="AllRoomsChecked" Unchecked="AllRoomsUnChecked"/>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Bottom">
+                <TextBlock>
+                <Run Text="Всего записей: "/>
+                <Run Text=""/>
+                </TextBlock>
+            </StackPanel>
+            <ScrollViewer>
+                <ItemsControl ItemsSource="{Binding Bookings}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderThickness="1" BorderBrush="Black">
+                                <StackPanel>
+                                    <TextBlock>
+                                <Run Text="{Binding Client.Fullname}"/>
+                                <LineBreak/>
+                                <Run Text="{Binding Client.PhoneNumber}"/>
+                                <LineBreak/>
+                                <Run Text="{Binding Room.RoomNumber}"/>
+                                <LineBreak/>
+                                <Run Text="От:"/>
+                                <Run Text="{Binding DateBeginning}"/>
+                                <Run Text="До:"/>
+                                <Run Text="{Binding DateExpiration}"/>
+                                    </TextBlock>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </DockPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,17 @@
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\bin\Debug\net6.0\scriptForGenerateInfo.exe
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\bin\Debug\net6.0\scriptForGenerateInfo.deps.json
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\bin\Debug\net6.0\scriptForGenerateInfo.runtimeconfig.json
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\bin\Debug\net6.0\scriptForGenerateInfo.dll
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\bin\Debug\net6.0\scriptForGenerateInfo.pdb
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\bin\Debug\net6.0\Bogus.dll
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.csproj.AssemblyReference.cache
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.AssemblyInfoInputs.cache
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.AssemblyInfo.cs
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.csproj.CoreCompileInputs.cache
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.csproj.CopyComplete
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.dll
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\refint\scriptForGenerateInfo.dll
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.pdb
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\scriptForGenerateInfo.genruntimeconfig.cache
+C:\Users\310-10\Desktop\myProgect\практика 02.01\scriptForGenerateInfo\scriptForGenerateInfo\obj\Debug\net6.0\ref\scriptForGenerateInfo.dll
